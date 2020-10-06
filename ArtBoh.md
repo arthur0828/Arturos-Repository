@@ -21,3 +21,26 @@ public class Main {
 
 [Here is a link to a cool website](google.com) 
 //this is to put a link to show to a specific website
+
+public class Solution {
+    public static String repeatStr(final int repeat, final String string) {
+      String str = ""; 
+      for (int i = 0; i < repeat; i++){
+        str += string;
+      } 
+      
+      
+      return str; 
+    }
+}
+
+public class Solution {
+
+    public static String[] stringToArray(String s) {
+      String [] str; 
+      str = s.split(" ");       
+      return str; 
+    }
+
+}
+
