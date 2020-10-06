@@ -21,7 +21,7 @@ public class Main {
 
 [Here is a link to a cool website](google.com) 
 //this is to put a link to show to a specific website
-
+```java
 public class Solution {
     public static String repeatStr(final int repeat, final String string) {
       String str = ""; 
@@ -33,7 +33,8 @@ public class Solution {
       return str; 
     }
 }
-
+```
+```java
 public class Solution {
 
     public static String[] stringToArray(String s) {
@@ -41,6 +42,5 @@ public class Solution {
       str = s.split(" ");       
       return str; 
     }
-
 }
-
+```
