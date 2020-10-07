@@ -45,10 +45,10 @@ public class Solution {
 }
 ```
 =======================================================================================================================================
-##OCT. 7 2020
+## OCT. 7 2020
 
 
-#Codewars (Alternate Capitalization)
+# Codewars (Alternate Capitalization)
 ```java
 class Solution{
     public static String[] capitalize(String s){
@@ -77,7 +77,7 @@ class Solution{
   }
   ```
 
-#Name, email, date Java Program
+# Name, email, date Java Program
 
 ```java
 import java.time.LocalDate;
