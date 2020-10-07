@@ -44,3 +44,67 @@ public class Solution {
     }
 }
 ```
+=======================================================================================================================================
+##OCT. 7 2020
+
+
+#Codewars (Alternate Capitalization)
+```java
+class Solution{
+    public static String[] capitalize(String s){
+        char [] even = s.toCharArray();
+        char [] odd = s.toCharArray();
+        
+        for (int i =0; i < even.length; i++){
+            if (i % 2 ==0 || i ==0){
+                even[i] = Character.toUpperCase(even [i]);
+            }
+        }
+        for (int i = 0; i< odd.length; i++){
+            if (i % 2 !=0){
+                odd [i] = Character.toUpperCase(odd [i]);
+            }
+        }
+        String a = String.valueOf(even);
+        String b =String.valueOf(odd);
+        
+        String [] capital = new String [2];
+        capital[0] = a;
+        capital [1] = b;
+      
+      return capital;
+    }
+  }
+  ```
+
+#Name, email, date Java Program
+
+```java
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner name = new Scanner (System.in);
+
+        System.out.println ("Please enter your Full name: ");
+        String x = name.nextLine();
+
+
+
+            Scanner email = new Scanner (System.in);
+            System.out.println ("Please Eneter your Email: ");
+            String y = email.next();
+
+
+        System.out.println(x);
+        System.out.println(y);
+
+        System.out.println("Today's Date is: ");
+
+        LocalDate today = LocalDate.now();
+        System.out.println(today);
+    }
+}
+```
